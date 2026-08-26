@@ -1,0 +1,163 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f6fa;
+}
+header {
+    background-color: #174a70;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    margin: 0;
+}
+nav {
+    display: flex;
+    gap: 15px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:hover {
+    background-color: #2d719d;
+    border-radius: 5px;
+}
+.welcome {
+    text-align: center;
+    padding: 30px;
+    background-color: #dcecf7;
+}
+.welcome h2 {
+    color: #174a70;
+}
+.section-title {
+    text-align: center;
+    color: #174a70;
+    margin: 30px;
+}
+.event-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.event-card {
+    background-color: white;
+    width: 230px;
+    min-height: 250px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+}
+.event-card:hover {
+    box-shadow: 0 5px 10px gray;
+}
+.event-card h3 {
+    color: #174a70;
+}
+
+.event-card p {
+    line-height: 1.5;
+}
+
+.register-btn {
+    background-color: #287d9c;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.register-btn:hover {
+    background-color: #174a70;
+}
+
+.registration {
+    background-color: #e5f0f7;
+    padding: 20px;
+}
+
+form {
+    background-color: white;
+    max-width: 500px;
+    margin: auto;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+.gender {
+    display: flex;
+    gap: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #287d9c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #174a70;
+}
+
+.reset-btn {
+    background-color: gray;
+}
+
+#faq {
+    padding: 20px;
+}
+
+.faq-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.faq-item {
+    width: 40%;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.faq-item h3 {
+    color: #174a70;
+}
+.contact {
+    text-align: center;
+    padding: 25px;
+    background-color: #dcecf7;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #174a70;
+    color: white;
+}
