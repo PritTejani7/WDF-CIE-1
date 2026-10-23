@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Student Feedback Form</h1>
+        <p>Give your course feedback</p>
+    </header>
+
+    <main>
+        <section class="box">
+            <h2>Feedback Details</h2>
+
+            <form id="feedbackForm">
+                <label for="student">Student Name:</label>
+                <input type="text" id="student">
+                <p class="error" id="studentError"></p>
+
+                <label for="course">Course Name:</label>
+                <input type="text" id="course">
+                <p class="error" id="courseError"></p>
+
+                <label for="faculty">Faculty Name:</label>
+                <input type="text" id="faculty">
+                <p class="error" id="facultyError"></p>
+
+                <label for="teaching">Teaching Rating (1-5):</label>
+                <select id="teaching">
+                    <option value="">Select rating</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <p class="error" id="teachingError"></p>
+
+                <label for="practical">Practical Rating (1-5):</label>
+                <select id="practical">
+                    <option value="">Select rating</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <p class="error" id="practicalError"></p>
+
+                <label for="content">Content Rating (1-5):</label>
+                <select id="content">
+                    <option value="">Select rating</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <p class="error" id="contentError"></p>
+
+                <label for="comments">Comments:</label>
+                <textarea id="comments" rows="3"></textarea>
+
+                <button type="submit">Submit Feedback</button>
+                <button type="reset" id="resetBtn">Reset</button>
+            </form>
+        </section>
+
+        <section class="box">
+            <h2>Feedback Summary</h2>
+            <div id="feedbackSummary">Your result will appear here.</div>
+            <div id="recommendation"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Student Feedback Dashboard</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
